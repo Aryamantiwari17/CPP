@@ -1,17 +1,27 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+ 
+
+int TrailingZeros(int n)
+{
+    if (n < 0) 
+        return -1;
+ 
+ 
+    int count = 0;
+ 
+  
+    for (int i = 5; (n / i) >= 1; i *= 5)
+        count += (n / i);
+ 
+    return count;
+}
+ 
+
+int main()
+{
     int n;
     cin>>n;
-    int prod=1;
-    int sum=0;
-    while(n!=0){
-        int digit =(n%10);
-        prod=prod*digit;
-        sum=sum+digit;
-        n=n/10;
-    }
-    int answer=prod-sum;
-    cout<<answer;
-    return answer;
+    cout <<TrailingZeros(n);
+    return 0;
 }
