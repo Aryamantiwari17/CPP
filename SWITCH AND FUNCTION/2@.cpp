@@ -27,7 +27,7 @@ int main()
 
       case 4: Rs1=amt/1;
               amt=amt%1;
-              cout<<"No of 1 Rupee notes  are="<<Rs1<<endl; 
+              cout<<"No of 1 Rupee notes are="<<Rs1<<endl; 
                   
            }
 }
