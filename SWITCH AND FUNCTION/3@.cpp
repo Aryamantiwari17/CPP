@@ -2,7 +2,7 @@
   using namespace std;
   
 
-  void int power()
+   int power()
   {
      int a,b;
      cin>>a>>b;
