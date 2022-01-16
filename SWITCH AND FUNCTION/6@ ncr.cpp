@@ -22,3 +22,5 @@ int main(){
     cout<<"answer is"<<nCr(n,r)<<endl;
 
 }
+
+
