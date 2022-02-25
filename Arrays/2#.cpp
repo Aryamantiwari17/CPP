@@ -14,13 +14,16 @@ void printARRAY(int arr[],int size){
       int num[15]={1,2,3};
       printARRAY(num,15);
        
-      cout<<"hi"<<endl<<num [14]<<endl;
+      cout<<endl<<num [14]<<endl;
       int fiv[32]={4,6,8};
       printARRAY(fiv,32);
       cout<<fiv[32]<<endl;
        
        int fivsize=sizeof(fiv)/sizeof(int);
        cout<<"siz="<<fivsize<<endl;
+
+       char ch[5]={'a','p','o','i'};
+       cout<<ch[3]<<endl;
 
 
 
