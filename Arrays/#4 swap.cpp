@@ -20,7 +20,14 @@ int odd[5]={2,3,4,5,6};
 int even[8]={5,8,4,3,6,4,3,1};
 Swaparr(even,8);
 printarray(even,8);
+cout<<endl;
+
+Swaparr(odd,5);
+printarray(odd,5);
 }
+
+
+
 
 
 

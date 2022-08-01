@@ -8,7 +8,7 @@ int main() {
     while(t!=0){
         
 	    int a,b,c,d,m1,m2,res;
-	    cin>>a>>b>>c>>d;
+	    cin>>a>>b>>c>2>d;
 	    if(a>b){
 	        m1=a;
 	    }
