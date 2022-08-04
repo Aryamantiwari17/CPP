@@ -1,24 +1,17 @@
 #include<iostream>
 using namespace std;
-void fnc(int n){
-    if(n==0){
-        
-        return 0;
+int main(){
+    int a[5];
+    for(int i;i<5;i++){
+        cout<<"enter the number"<<endl;
+        cin>>a[i];
+        int max=a[i];
+        for(i=1;i<5;i++){
+            if(a[i]>max){
+                a[i]=max;
+
+            }
+            cout<<"maximumm of an array"<<max<<endl;
+        }
     }
-    
-    
-    
-    return  n+fnc(n-1);
-    } 
-    
-    
-
-    
-
-int main(){ 
-
-    int n=3;
-    cin>>n;
-    cout<<fnc(n);
-    return 0;
 }
